@@ -1,0 +1,19 @@
+f = int(input())
+num2 = []
+num3 = []
+num5 = []
+while f>0:
+    x = int(input())
+    if x % 2 == 0:
+        num2.append(x)
+    if x % 3 == 0:
+        num3.append(x)
+    if x % 5 == 0: 
+        num5.append(x)
+    f=f-1 
+print('Делятся на 2:')
+print(num2)
+print('Делятся на 3:')
+print(num3)
+print('Делятся на 5:')
+print(num5)
